@@ -1,2 +1,4 @@
-# urbanlaunchpad.github.io
-UL organizational website
+urbanlaunchpad.github.io
+========================
+
+Organizational website for the Urban Launchpad team

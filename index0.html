@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charsets="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Building open urban infostructures for all">
+	<meta name="keywords" content="ict, urban planning, design, technology, transportation">
+	<meta name="author" content="Front-End and Design: Stephen Kennedy">
+	<title>Urban Launchpad</title>
+	<link rel="shortcut icon" href="src/img/favicon.ico" />
+	<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,500' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" type="text/css" href="src/css/bootstrap.css">	
+	<link rel="stylesheet" type="text/css" href="src/css/style.css">
+
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css' rel='stylesheet' />
+
+	<script>
+		// add google analytics here
+	</script>
+</head>
+
+<body>
+<header>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2 logo">
+				<a href="#">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 	viewBox="-5 -10 300 300" enable-background="new -5 -10 300 300" xml:space="preserve">
+					<path fill="#78AE62" d="M15.266,132.759C15.266,206.9,73.465,262.49,145,262.49c71.536,0,129.739-55.589,129.739-129.731H290
+						c0,79.253-65.047,145.001-145,145.001c-79.952,0-145-65.748-145-145.001H15.266z M145,231.97c54.7,0,99.216-42.969,99.216-99.213
+						h-15.268c0,48.575-37.653,83.948-83.947,83.948c-46.286,0-83.947-35.373-83.947-83.948H45.791
+						C45.791,189.005,90.294,231.97,145,231.97z M22.895,132.759c0,69.028,54.776,122.107,122.105,122.107
+						c67.33,0,122.109-53.079,122.109-122.107h-15.264c0,58.8-47.931,106.844-106.847,106.844c-58.911,0-106.841-48.044-106.841-106.844
+						H22.895L22.895,132.759z M129.733,132.759h-15.26c0.002,15.339,13.693,30.523,30.525,30.523c16.833,0,30.525-15.184,30.525-30.523
+						h-15.262c0,7.67-6.853,15.265-15.267,15.265C136.581,148.019,129.733,140.428,129.733,132.759z M152.632,132.759h-15.269
+						c0,5.113,3.421,7.631,7.634,7.631C149.208,140.389,152.632,137.872,152.632,132.759z M68.679,132.759
+						c0.004,46.02,34.243,76.317,76.321,76.317c42.083,0,76.32-30.298,76.32-76.317h-15.264c0,35.792-27.393,61.055-61.058,61.055
+						c-33.665,0-61.058-25.263-61.058-61.055H68.679L68.679,132.759z M91.575,132.759c0.002,33.236,23.968,53.419,53.422,53.419
+						c29.453,0,53.421-20.184,53.421-53.419h-15.266c0,20.453-17.117,38.16-38.158,38.16c-21.038,0-38.159-17.707-38.159-38.16H91.575z"
+						/>
+					<path fill="#F2F2F2" d="M91.575,76.381h15.34v51.13h-15.34V76.381z M114.473,127.51h15.339V43.145h-15.339V127.51z M137.327,127.51
+						h15.339V2.239h-15.339V127.51z M160.184,127.511h15.34V32.919h-15.34V127.511z M183.078,127.51h15.341V66.153h-15.341V127.51z
+						 M205.982,127.51h15.338v-25.564h-15.338V127.51z M228.878,127.51h15.338V86.605h-15.338V127.51z M251.771,127.511h15.338v-15.339
+						h-15.338V127.511z M69.027,127.51h15.339V94.275H69.027V127.51z M46.018,127.51h15.339V86.605H46.018V127.51z M23.009,127.511
+						h15.339v-15.339H23.009V127.511z M0,127.51h15.339v-5.112H0V127.51z M274.66,127.51H290v-5.112h-15.34V127.51z"/>
+					</svg>
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<nav>
+					<h2>Urban Launchpad</h2>
+					<ul>
+						<li><a href="#">Our Approach</a></li>
+						<li><a href="#">Our Team</a></li>
+						<li><a href="#">Get in Touch</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="hidden-xs col-sm-7 col-md-6" style="padding-top:3px;">
+				<h4>Building open urban infostructures for all</h4>
+				<p>The future of cities is no longer held in one big plan, but in a thousand measured strokes. We're busy demonstrating that open, urban infostructures can be built anywhere at affordable cost.</p>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-4 col-md-2 col-md-offset-3">
+			<div class="marker">
+				<h5>Where we're working</h5>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid basemap">
+	<div class="row">
+		<div id='map'></div>
+		<script>
+			L.mapbox.accessToken = 'pk.eyJ1Ijoic3RlcGhlbmtlbm5lZHkiLCJhIjoidjE2aTktdyJ9.gpYsw_JQAEuHlK5rAq0rsw';
+
+			var map = L.mapbox.map('map', 'stephenkennedy.UL_basemap', { zoomControl:false } );
+
+			// map.dragging.disable();
+			map.touchZoom.disable();
+			map.doubleClickZoom.disable();
+			map.scrollWheelZoom.disable();
+			map.zoomControl.disable();
+		</script>
+	</div>
+</div>
+
+</body>
+
+</html>

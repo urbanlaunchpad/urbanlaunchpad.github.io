@@ -1,0 +1,57 @@
+.sg-section {
+	max-width: 1200px;
+	margin: 0 20px;
+	padding: 60px 10px;
+	border-bottom: 2px solid #333;
+}
+
+
+/*COLOR SECTION*/
+
+.sg-colors {
+  	overflow: hidden; 
+}
+
+ul {
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+}
+
+.sg-colors li {
+	overflow: hidden;
+	background-color: #f2f2f2;
+	border: 1px solid #dddddd;
+	margin: 0 0.4em 0.4em 0; 
+	padding-bottom: 5px;
+}
+
+@media all and (min-width: 30em) {
+  	.sg-colors li {
+    	float: left;
+    	width: 5em; 
+	} 
+}
+
+.sg-swatch {
+  display: block;
+  height: 1.5em;
+  width: 50%; }
+  @media all and (max-width: 30em) {
+    .sg-swatch {
+      float: left;
+      margin-right: 0.3em; } }
+  @media all and (min-width: 30em) {
+    .sg-swatch {
+      width: 100%;
+      height: 4em;
+      margin-bottom: 0.2em; } }
+
+.sg-label {
+  padding: 0.3em;
+  line-height: 1; 
+}
